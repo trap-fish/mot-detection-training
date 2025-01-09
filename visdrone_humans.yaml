@@ -1,0 +1,6 @@
+names:
+- pedestrian
+- person
+nc: 2
+train: C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-train/images
+val: C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-val/images
