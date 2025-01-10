@@ -5,8 +5,8 @@ from ultralytics import YOLO
 # Set dataset paths
 train_images_path = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-train/images"
 val_images_path = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-val/images"
-coco_annotation_train = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-train/annotations_VisDrone_train.json"
-coco_annotation_val = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-val/annotations_VisDrone_val.json"
+coco_annotation_train = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-train/filtered_annotations_VisDrone_train.json"
+coco_annotation_val = "C:/Users/Matthew/Documents/UU/IoT/project/mot-experiments/mot-detection-training/datasets/VisDrone2019-DET-val/filtered_annotations_VisDrone_val.json"
 
 # Define YOLO config parameters
 config = {
